@@ -1,6 +1,10 @@
 # CyberSpec
 Code and datasets for CyberSpec paper
 
+**CyberSpec: Intelligent Behavioral Fingerprinting to Detect Attacks on Crowdsensing Spectrum Sensors**
+_Alberto Huertas Celdrán, Pedro Miguel Sánchez Sánchez, Gérôme Bovet, Gregorio Martínez Pérez, Burkhard Stiller_
+https://arxiv.org/abs/2201.05410
+
 ## Dataset
 Each dataset models the internal behavior of a Raspberry Pi acting as an IoT spectrum sensor. The name of each file is the device MAC address. Each dataset models the behavior of that device (looking at Linux kernel events belonging to usage of CPU, Memory, Network interface, File system, Scheduler, drivers, and Random number generation) when it is running in a normal manner and when it is affected by eight spectrum sensing data falsification (SSDF) attacks and configurations.
 
